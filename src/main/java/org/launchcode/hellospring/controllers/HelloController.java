@@ -62,15 +62,15 @@ public class HelloController {
 
     public static String createMessage(String name, String languages) {
         if (languages.equals("English")){
-            return "Hello, " + name + "!";
+            return "<h1 style= 'color: pink'>Hello, " + name + "!</h1>";
         }else if (languages.equals("Spanish")){
-            return "Hola, " + name + "!";
+            return "<h1 style= 'color: red'>Hola, " + name + "!</h1>";
         }else if (languages.equals("German")){
-            return "Guten Tag, " + name + "!";
+            return "<h1 style= 'color: green'>Guten Tag, " + name + "!</h1>";
         }else if (languages.equals("French")){
-            return "Bonjour, " + name + "!";
+            return "<h1 style= 'color: blue'>Bonjour, " + name + "!</h1>";
         }else{
-            return "Ciao, " + name + "!";
+            return "<h1 style= 'color: brown'>Ciao, " + name + "!</h1>";
         }
     }
 }
